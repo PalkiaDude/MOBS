@@ -40,7 +40,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 use pocketmine\entity\Item as ItemEntity;
-class EntityManager extends PluginBase implements Listener{
+class Mobs extends PluginBase implements Listener{
     public $path;
     public static $data;
     public static $drops;
