@@ -3,7 +3,7 @@ use pocketmine\entity\Rideable;
 use pocketmine\item\Item;
 use pocketmine\Player;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
-class Pig extends Animal implements Rideable{
+class Wold extends Animal implements Tameable{
     const NETWORK_ID = 14;
     public $width = 1.6;
     public $length = 0.8;
