@@ -1,4 +1,4 @@
-namespace milk\entitymanager\entity;
+namespace Palk\MOBS\entity;
 use pocketmine\entity\Colorable;
 use pocketmine\item\Item;
 use pocketmine\Player;
