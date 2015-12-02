@@ -1,4 +1,4 @@
-namespace milk\entitymanager\entity;
+namespace Palk\MOBS\entity;
 use pocketmine\item\Item;
 use pocketmine\Player;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
