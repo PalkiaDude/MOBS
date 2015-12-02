@@ -12,7 +12,7 @@ use Palk\MOBS\entity\Monster;
 use Palk\MOBS\entity\PigZombie;
 use Palk\MOBS\entity\Skeleton;
 use Palk\MOBS\entity\Spider;
-use Palk\MOBS\entity\Wolf
+use Palk\MOBS\entity\Wolf;
 use Palk\MOBS\entity\Zombie;
 use Palk\MOBS\task\SpawnEntityTask;
 use Palk\MOBS\task\UpdateEntityTask;
@@ -267,7 +267,7 @@ class Mobs extends PluginBase implements Listener{
             self::$spawn["{$pos->x}:{$pos->y}:{$pos->z}:{$pos->level->getFolderName()}"] = [
                 "radius" => 5,
                 "mob-list" => [
-                    "Cow", "Pig", "Sheep", "Chicken",
+                    "Cow", "Pig", "Sheep", "Chicken", "Wolf"
                     "Zombie", "Creeper", "Skeleton", "Spider", "PigZombie", "Enderman"
                 ],
             ];
