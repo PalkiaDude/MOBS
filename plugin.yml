@@ -1,7 +1,7 @@
 name: MOBS
 main: Palk\MOBS\Mobs
 version: "1.0 Beta"
-api: 2.0.0
+api: 0.13.0
 load: POSTWORLD
 author: PalkiaDude
 commands:
