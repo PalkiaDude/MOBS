@@ -3,6 +3,7 @@ use pocketmine\entity\Entity;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\item\Item;
+use pocketmine\level\Level;
 class Zombie extends Monster{
     const NETWORK_ID = 32;
     public $width = 0.72;
@@ -45,5 +46,12 @@ class Zombie extends Monster{
             }
         }
         return $drops;
+    }
+    public function BURNDEZOMBIE(){
+    $server = $this->plugin->getServer();
+    $l = $server->getDefaultLevel;
+    $time = $this->getTime % Level::TIME_FULL;
+    if($time === Level::TIME_DAY){
+    $this->setOnFire(6000);
     }
 }
